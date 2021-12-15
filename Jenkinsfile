@@ -3,8 +3,8 @@ pipeline {
     environment {
         IMAGE_NAME = "alpinehelloworld"
         IMAGE_TAG = "ajc-2.1"
-        STAGING = "abdelkader-ajc-staging-env"
-        PRODUCTION = "abdelkader-ajc-prod-env"
+        STAGING = "abdelkader-helloword-staging-env"
+        PRODUCTION = "abdelkader-helloword-prod-env"
         USERNAME = "abdelkader90"
         CONTAINER_NAME = "alpinehelloworld"
     }
